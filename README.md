@@ -15,3 +15,7 @@ The permissions used are -
 - READ_CALL_LOG
 - SEND_SMS
 
+## Demo
+
+https://user-images.githubusercontent.com/88270604/158018312-6871df89-0f02-48b0-ae95-bb5d6a6d7e75.mp4
+
