@@ -1,5 +1,5 @@
 # Silent_Please
-This is an android application which silent your if you don't want to talk to that person and his number is present inside the database. It also sends SMS to the number.
+This is an android application that silences your if you don't want to talk to that person and his number is present inside the database. It also sends SMS to the number.
 I have also used different permission to access the call log and phone state.
 It has different features like -
 - Broadcast Receiver
