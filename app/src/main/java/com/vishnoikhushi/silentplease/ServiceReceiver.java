@@ -39,12 +39,19 @@ public class ServiceReceiver extends BroadcastReceiver {
                     System.out.println("incomingNumber : " + phoneNumber);
                     //if the incoming number is present inside the database, it will change the state of phone to silent.
                     if (numbersList != null) {
+                        boolean flag=false;
                         for (int i = 0; i < numbersList.size(); i++) {
                             String no = numbersList.get(i);
+                            
                             if (PhoneNumberUtils.compare(no, phoneNumber)) {
-                                am.setRingerMode(1);
-                                break;
+//                                 am.setRingerMode(1);
+//                                 break;
+                                flag=true;
                             }
+                        }
+                        if(flag== false){
+                            am.setRingerMode(1);
+                            break;
                         }
                     }
                     sendMessage(phoneNumber);
