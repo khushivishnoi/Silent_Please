@@ -51,7 +51,7 @@ public class ServiceReceiver extends BroadcastReceiver {
                         }
                         if(flag== false){
                             am.setRingerMode(1);
-                            break;
+                      //      break;
                         }
                     }
                     sendMessage(phoneNumber);
